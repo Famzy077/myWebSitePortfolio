@@ -1,0 +1,79 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="house.css">
+            <link rel="stylesheet" href="font/css/all.css">
+        </head>
+        <body>
+                <div class="hero">
+                    <div class="header">
+                        <h4>AZURE <span>HOMES</span></h4>
+                    </div>
+                    <div class="nav">
+                            <ul>
+                                <a href="#">Home</a>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Properties</a></li>
+                                <li><a href="#">Agent</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                    </div>
+                        <div class="main">
+                            <div class="link">
+                                <a href="login">Login</a>
+                            </div>
+                            <div class="btn0">
+                                <button>Register</button>
+                            </div>
+                        </div>
+                </div>
+
+            
+            <div class="container">
+                <div class="sect">
+                    <h3>Explore your</h3>
+                    <h3 id="text">perfect properties</h3>
+                    <div class="con">
+                        <p>From cozy apartment to luxurious estate, we're are here to guide you</p>
+                    <p class="para">through the journey of finding your ideal property</p>
+                    <div class="btn01">
+                        <button>Get Started</button>
+                        <button class="btn1">View Properties</button>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="sect1" id="home">
+                    <div class="img1">
+                    <img src="./imgs/house-image-bed.jpg" alt="">
+                    </div>
+                    <div class="text1">
+                        <p>About us</p>
+                        <p>We're a team of experience and passionate real estate professional <br>
+                        who are commited to helping you find your dream home</p>
+                        <a href="#">Read more</a>
+                    </div>
+                    <div class="img2">
+                        <img src="./imgs/down-arrow.png" alt="">
+                    </div>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-xmark" id="icon"></i>
+                </div>
+            </div>
+
+            <h2 class="pre"><a href="../MyWebProject.html">Previous</a></h2>
+
+            <script>
+                let icon = document.getElementById('icon')
+                let home = document.getElementById('home')
+
+                icon.onclick= function () {
+                    home.style.display = 'none'
+                }
+            </script>
+        </body>
+        </html>

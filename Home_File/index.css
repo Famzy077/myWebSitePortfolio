@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header h1{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+header{
+    background-color: lightgray;
+    box-shadow: 0 0 2px 0 gray;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+}
+
+ nav ul{
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    margin-left: 50px;
+    list-style-type: none;
+    margin-top: 30px;
+    position: relative;
+    right: 10%;
+}
+#nav2{
+    background-color: black;
+    opacity: .9;
+    list-style-type: none;
+    padding: 20px 70px;
+      line-height: 40px;
+    width: 200px;
+    height: 55vh;
+    position: fixed;
+    display: none;
+}
+#nav2 a{
+    text-decoration: none;
+    color: azure;
+}
+#nav2 a:hover{
+    color: #fff;
+}
+
+#closed{
+    color: lightgray;
+    position: absolute;
+    left: 160px;
+    top: 10px;
+    font-size: 30px;
+
+}
+#closed:hover{
+    color: white;
+}
+#nav02 img{
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: fixed;
+    display: none;
+}
+#nav2 a{
+    color: white;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    transition: 1s ease-in;
+}
+li a:hover{
+    color: red;
+    text-decoration: underline black;
+}
+ul span a{
+    background-color: rgb(103, 12, 103);
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+/* Section1*/
+.section01{
+    background-color: lightgray;
+    padding-top: 70px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.section01 span {
+    padding-left: 150px;
+}
+.section01 h2{
+    padding-left: 90px;
+}
+.section01 p{
+    margin-right: 49px;
+}
+
+/* Section1 */
+.section1{
+    padding: 50px 15px;
+    background-color: lightgray;
+}
+.section1 img{
+    width: 100%;
+    height: 100vh;
+    object-fit:cover;
+}
+
+/* Section03 */
+.section03{
+    margin: 80px 15px ;
+}
+.section03 h1{
+    color: rgb(5, 5, 138);
+    padding: 40px 0 ;
+}
+.section03 b{
+    font-size: 25px;
+    margin-left: 35px;
+    justify-content: center;
+    display: grid;
+}
+.section3 {
+    margin: 30px 15px;
+}
+.section3 strong{
+    font-size: 25px;
+    font-weight: 200;
+}
+.section3 h2{
+    padding: 20px 0;
+}
+
+/* Section4 */
+.section04{
+    margin: 130px 15px;
+}
+.section04 p{
+    display: grid;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(3, 3, 88);
+}
+.section04 h1{
+    color: rgb(5, 5, 138);
+}
+.section04 img{
+    object-fit: fill;
+    display: block;
+    width: 330px;
+    height: 300px;
+}
+#imgPro{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 50px;
+    gap: 30px;
+    margin: 30px 0;
+}
+.imgPro{
+    box-shadow: 0 0 2px 0;
+    width: 330px;
+}
+.imgPro img{
+    height: 240px;
+}
+
+.imgPro b, p{
+    box-shadow: 0 0 2px 0;
+}
+.imgPro p{
+    font-size: 20px;
+    color: black;
+}
+
+
+/* Section5 */
+.section5{
+    margin: 60px 15px;
+}
+.section5 h1{
+    text-transform: uppercase;
+    color: rgb(5, 5, 138);
+}
+.section5 p{
+    text-align: center;
+    padding: 20px 0;
+    padding-bottom: 0;
+}
+.section5 img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+/* Section6 */
+.section6{
+    margin: 50px 15px;
+    display: flex;
+}
+.section6 img{
+    width:320px;
+    height: 320px;
+    object-fit: contain;
+    display: block;
+}
+.about{
+    margin-top: 100px;
+    line-height: 30px;
+}
+
+/* Section7 */
+.section7{
+    margin: 30px 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.section7 h1{
+    padding: 20px;
+}
+.section7 input{
+    line-height: 30px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+/* @media screen and(min-width: 400px ) and (max-width: 920px) */
+@media screen and (max-width: 500px){
+  .container{
+    display:grid;
+    grid-template-columns: auto;
+  }  
+  #imgPro{
+    display: grid;
+    grid-template-columns:  none;
+    row-gap: 50px;
+    gap: 30px;
+    margin: 30px 0;
+}
+.section5 img{
+    width: 95%;
+    height: 50vh;
+    object-fit: contain;
+}
+.section1 img{
+    width: 90%;
+    height: 80vh;
+    object-fit:cover;
+}
+header{
+    background-color: lightgray;
+    box-shadow: 0 0 2px 0 gray;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+}
+nav ul{
+    display: none;
+}
+#nav02 img{
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: fixed;
+    display: block;
+}
+} 

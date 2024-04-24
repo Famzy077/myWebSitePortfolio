@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="./styles/single.css">
+    <link rel="stylesheet" href="../font/css/all.css">
+
+</head>
+<body>
+     <!-- First Header -->
+     <header>
+        <div class="nav1">
+            <a href="#">FAQs</a> <span>|</span>
+            <a href="#">Help</a> <span>|</span>
+            <a href="#">Support</a>
+        </div>
+
+        <div class="nav1_icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i> 
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </header>
+    
+    <!-- Second Header -->
+    <div class="header2">
+        <div class="nav2">
+            <div class="e"><h2>E</h2></div> <b>Shopper</b>
+        </div>
+        <div class="nav2_input">
+            <input type="text" placeholder="Search for products..."><i class="fa-solid fa-magnifying-glass"></i>
+            
+        </div>
+        <div class="nav2_icon">
+            <div id="i">
+                <a href="#"><i class="fa-solid fa-heart"></i> 0</a>
+            </div>
+            <div id="i">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i><input readonly id="cart" value="0"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories Nav Bar -->
+    <nav>
+        <div class="nav02">
+            <!-- <ul onclick="myClick()" id="click">
+                <li><a href="#" id="click"  id="click">Categories<i class="fa-solid fa-chevron-down"></i></a> <hr>
+                    <ul>
+                        <li><a href="#" class="dres">Dresses <i class="fa-solid fa-chevron-down"></i></a> <hr>
+                        <ul class="dropdown">
+                            <a href="#">Men Dresses</a>
+                            <a href="#">Women Dresses</a>
+                            <a href="#">Baby Dresses</a>
+                        </ul>
+                        </li>
+                   
+                        <li><a href="#">Sleep Wear</a></li> <hr>
+                        <li><a href="#">Sport Wear</a></li> <hr>
+                        <li><a href="#">Jump suite</a></li> <hr>
+                        <li><a href="#">Blazer</a></li> <hr>
+                        <li><a href="#">Jacket</a></li> <hr>
+                        <li><a href="#">Shoes</a></li> <hr>
+                    </ul>
+                </li>
+            </ul> -->
+        </div>
+
+
+        <div class="nav3">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="">Shop-Detail</a></li>
+                <li><a href="">Pages</a>
+                <ul class="drop">
+                    <a href="#">Shopping Cart</a>
+                    <a href="#">Checkout</a>
+                </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+           
+        <div class="nav4">
+            <ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="main">
+        <h1>SHOP DETAIL</h1>
+        <p><span><a href="#">Home</a></span> - <a href="#" class="a">Shop Detail</a></p>
+    </div>
+
+    <div class="section">
+        <div class="image">
+        <img src="../img/Women-dress-.png" alt="" id="img">
+        </div>
+       <div class="text">
+        <h2 id="title">Colorful Stylish Shirt</h2>
+        <p><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> (<span id="rating">50</span> Reviews)</p>
+        <h3 id="price">$150.00 </h3>
+        <p id="desc">Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit clita ea. Sanc invidunt ipsum et, labore clita lorem magna lorem ut. Erat lorem duo dolor no sea nonumy. Accus labore stet, est lorem sit diam sea et justo, amet at lorem et eirmod ipsum diam et rebum kasd rebum.</p>
+        <label for="size">Size:</label>
+        <input type="radio" name="size">
+        <label for="xl">Xl</label>
+        <input type="radio" name="size">
+        <label for="s">S</label>
+        <input type="radio" name="size">
+        <label for="m">M</label>
+        <input type="radio" name="size">
+        <label for="l">L</label>
+        <input type="radio" name="size">
+        <label for="lx">LX</label>
+        <input type="radio" name="size">
+        <br>
+        <label for="price">Color:</label>
+            <label for="price">Black</label>
+            <input type="radio" name="price">
+            <label for="white">White</label>
+            <input type="radio" name="price">
+            <label for="red">Red</label>
+            <input type="radio" name="price">
+            <label for="blue">Blue</label>
+            <input type="radio" name="price">
+            <label for="green">Green</label>
+            <input type="radio" name="price">
+        
+        
+        <div class="btn">
+            <div id="btn">
+                <input type="button" id="remove" value="-" onclick="remove_quantity('-')">
+                <input readonly id="quantity" value="0">
+                <input type="button" id="add" value="+" onclick="add_quantity('+')">
+            </div>
+
+            <button class="b"><i class="fa-solid fa-cart-shopping"></i>  Add to cart</button>
+        </div>
+        <p>Share on:  <i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-linkedin"></i> <i class="fa-brands fa-pinterest"></i></p>
+       </div>
+    </div>
+    <div class="Second_Section">
+        <div class="box">
+            <a href="#">Description</a>
+            <a href="#" class="a">Information</a>
+            <a href="#" class="a">Reviews</a>
+            <div></div>
+        </div>
+        <div class="line"></div>
+        
+        <div class="text">
+            <h3>Product  Description:</h3>
+            <p>Eos no lorem eirmod diam diam, eos elitr et gubergren diam sea. Consetetur vero aliquyam invidunt duo dolores et duo sit. Vero diam ea vero et dolore rebum, dolor rebum eirmod consetetur invidunt sed sed et, lorem duo et eos elitr, sadipscing kasd ipsum rebum diam. Dolore diam stet rebum sed tempor kasd eirmod. Takimata kasd ipsum accusam sadipscing, eos dolores sit no ut diam consetetur duo justo est, sit sanctus diam tempor aliquyam eirmod nonumy rebum dolor accusam, ipsum kasd eos consetetur at sit rebum, diam kasd invidunt tempor lorem, ipsum lorem elitr sanctus eirmod takimata dolor ea invidunt.</p>
+            <p>Dolore magna est eirmod sanctus dolor, amet diam et eirmod et ipsum. Amet dolore tempor consetetur sed lorem dolor sit lorem tempor. Gubergren amet amet labore sadipscing clita clita diam clita. Sea amet et sed ipsum lorem elitr et, amet et labore voluptua sit rebum. Ea erat sed et diam takimata sed justo. Magna takimata justo et amet magna et.</p>
+        </div>
+    </div>
+
+    <div class="main7">
+        <h1>--You May Also Like--</h1>
+        <div class="main05">
+        </div>
+
+
+        <div class="main9">
+            <div class="text9">
+    
+                <div class="nav2">
+                    <div class="e"><h2>E</h2></div> <b>Shopper</b>
+                </div>
+                    <h6>Dolore erat dolor sit lorem vero amet. <br> Sed sit lorem magna, ipsum no sit erat <br>lorem et magna ipsum dolore amet <br> erat.</h6>
+            
+                <div class="icon">
+                    <h6><i class="fa-solid fa-location-dot"></i>  123 Street, New York, USA</h6>
+                </div>
+                <div class="icon">
+                    <h6><i class="fa-solid fa-envelope"></i>  USAinfo@example.com</h6>
+                </div>
+                <div class="icon">
+                    <h6><i class="fa-solid fa-phone"></i>  +012 345 67890</h6>
+                </div>
+                </div>
+    
+            <div class="text09">
+                <h2>Quick Links</h2>
+                <i class="fa-solid fa-chevron-right"></i> <a href="#">Home</a> <br>
+                <i class="fa-solid fa-chevron-right"></i> <a href="#">Our Shop</a> <br>
+                <i class="fa-solid fa-chevron-right"></i> <a href="#">Shop Detail</a> <br>
+                <i class="fa-solid fa-chevron-right"></i> <a href="#">Shopping Cart</a> <br>
+                <i class="fa-solid fa-chevron-right"></i> <a href="#">CheckOut </a> <br>
+                <i class="fa-solid fa-chevron-right"></i> <a href="#">Contact Us</a> <br>
+            </div>
+    
+            <div class="text09">
+                <h2>Quick Links</h2>
+                <i class="fa-solid fa-chevron-right"></i> <a href="#">Home</a> <br>
+                <i class="fa-solid fa-chevron-right"></i> <a href="#">Our Shop</a> <br>
+                <i class="fa-solid fa-chevron-right"></i> <a href="#">Shop Detail</a> <br>
+                <i class="fa-solid fa-chevron-right"></i> <a href="#">Shopping Cart</a> <br>
+                <i class="fa-solid fa-chevron-right"></i> <a href="#">CheckOut </a> <br>
+                <i class="fa-solid fa-chevron-right"></i> <a href="#">Contact Us</a> <br>
+            </div>
+    
+            <div class="text19">
+                <h2>Newsletter</h2>
+                <div>
+                    <input type="text" placeholder="Your Email"> <br>
+                    <input type="text" placeholder="Your Name"> <br>
+                    <button>Subscribe Now</button> <br>
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+        <footer>
+            <div class="last">
+           <p> <b>© Your Site Name.</b> All Rights Reserved. Designed by <strong>Famzy Codex</strong></p>
+           <p>Distributed By <span>MR OEMZY</span></p>
+            </div>
+            <div class="banks">
+                <img src="../img/payments.png" alt="">
+            </div>
+        </footer>
+</div>
+    
+    
+
+
+    <script src="./scripts/single.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+*{
+ contain: layout;
+ padding: 0;
+}
+body{
+    height: 102vh;
+}
+.container{
+    background-image: url(./imgs/WhatsApp\ Image\ 2024-02-28\ at\ 13.21.30_d2ffcbba.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    padding-top: 10px;
+
+}
+.hero{
+    background-color: rgb(155, 191, 223);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.nav ul{
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    align-items: center;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    position: relative;
+    right: 110px;
+}
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 26px;
+    left: 70px;
+}
+.btn0 button{
+    /* border: 1px so; */
+    border-radius: 15px ;
+    background-color: black;
+    width: 80px;
+    padding: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+.sect{
+    margin-left: 35%;
+}
+
+.container h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    margin-left: 70px;
+}
+#text{
+    padding-right: 100px;
+    font-size: 2em;
+    position: relative;
+    bottom: 35px;
+    right: 45px;
+}
+.con{
+    font-size: x-small;
+    position: relative;
+    bottom: 65px;
+    left: 35px;
+}
+.para{
+    margin-left: 40px;
+    position: relative;
+    top: -10px;
+}
+
+.btn01 button{
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    width: 90px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.btn01 .btn1{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    width: 110px;
+    cursor: pointer;
+}
+
+.sect1{
+    background-color: #fff;
+    border-radius: 15px;
+    color: #000000;
+    width: 50%;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 120px;
+    display: flex;
+    gap: 10px;
+}
+
+.img1  img{
+    border-radius: 20px;
+    /* object-fit: cover; */
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.img2 img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.img2{
+    position: relative;
+    left: 30%;
+    cursor: pointer;
+}
+.icon{
+    position: relative;
+    bottom: 25%;
+    left: 60%;
+    cursor: pointer;
+}
+
+.pre {
+    background-color: red;
+    width: 150px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    left: 15px;
+    bottom: 15px;
+}
+ h2 a{
+    
+    color: rgb(18, 247, 18);
+}

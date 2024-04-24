@@ -1,0 +1,174 @@
+    *{
+        box-sizing: border-box;
+        contain: layout;
+    }
+
+     body{
+        height: 135vh;
+     }
+    .con{
+        display: flex;
+        gap: 220px;
+        margin-top: 20px;
+    }
+    .icon i{
+        font-size: 1.1em;
+        text-align: center;
+        padding-top: 3px;
+    }
+    .icon i{
+        border: 2px solid gray;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+
+    .text{
+        margin-top: -20px;
+    }
+    span{
+        color: red;
+    }
+    .p-{
+      position: relative;
+      top: -27px;
+      padding-left: 30px;
+      color: gray;
+    }
+    .search input{
+        text-align: justify;
+        border: 2px solid gray;
+        border-radius: 20px;
+        height: 25px;
+        width: 100px;
+    }
+    .search i{
+        background-color: gray;
+        border-right: 2px solid gray;
+        text-align: center;
+        border-radius: 0 10px 10PX 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 23px;
+        color: white;
+        position: absolute;
+        left: 70px;
+        top: 1px;
+        cursor: pointer;
+    }
+    .hero nav ul{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    .hero ul li a{
+        margin: 5px;
+        font-size: small;
+        text-decoration: none;
+        position: relative;
+        top: -45px;
+    }
+
+    
+    .main{
+        background-color: lightgray;
+        width: 190%;
+        height: 70vh;
+        position: relative;
+        top: -60px;
+    }
+    .text2{
+        margin-top: 70px;
+        margin-left: 130px;
+    }
+
+    .text2 p{
+        position: relative;
+        top: -20px;
+        font-size: x-small;
+    }
+    
+    .btn button{ 
+        background-color: gray;
+        width: 130px;
+        height: 30px;
+        position: relative;
+        top: -20px;
+        cursor: pointer;
+    }
+    .btn button:nth-child(2){
+        background-color: transparent;
+    }
+    img{
+        display: block;
+        margin-top: 20px;
+        object-fit: fill;
+        width: 800px;
+        height: 323px;
+    }
+
+    .pic{
+        position: absolute;
+        left: 170px;
+        bottom: 0%;
+    }
+    .main2{
+        display: flex;
+        gap: 10px;
+        position: relative;
+        bottom: 105px;
+        height: 40vh;
+    }
+    .sect{
+        text-align: center;
+        
+    }
+    .sect h2{
+        position: relative;
+        bottom: 35px;
+    }
+    .sect p{
+        font-size: small;
+        position: relative;
+        bottom: 50px;
+}
+
+    .icon1{
+        padding-top: 20px;
+    }
+    .icon1 i{
+        background-color: gainsboro;
+        border: 2px solid gray;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        padding-top: 2%;
+        font-size: 2em;
+    }
+
+    .main3{
+        background-color: gainsboro;
+        display: flex;
+        gap: 150px;
+        text-align: center;
+        padding-left: 10px;
+        position: relative;
+        bottom: 120px;
+    }
+
+    .main3 p{
+        color: gray;
+        position: relative;
+        bottom: 20px;
+        font-size: x-small;
+    }
+    .sect2{
+        color: gray;
+        text-align: center;
+    }
+
+
+    

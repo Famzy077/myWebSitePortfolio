@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    font-size: 20px;
+    background-color: black;
+    margin-left: calc(100%/2.5);
+    margin-top: 8%;
+    width: 320px;
+    padding: 20px 23px;
+    padding-left: 25px;
+    font-weight: 900;
+
+}
+.screen input{
+    background-color: white;
+    box-shadow: none;
+    color: black;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    width: 260px;
+    text-align: end;
+    border-radius: 0;
+    margin-right: 50px;
+
+}
+input{
+    background-color: black;
+    color: #fff;
+    border: none;
+    margin: 8px 8px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px  lightgray;
+    cursor: pointer;
+}
+#spec{
+    background-color: orange;
+    color: white;
+}
+.spec{
+    border-radius: 0;
+    width: 111px;
+    height: 45px;
+}
